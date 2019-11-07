@@ -1,0 +1,288 @@
+[2019-11-07 16:26:32,928] {scheduler_job.py:153} INFO - Started process (PID=21179) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:26:32,944] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:26:32,946] {logging_mixin.py:112} INFO - [2019-11-07 16:26:32,945] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:26:32,975] {logging_mixin.py:112} INFO - [2019-11-07 16:26:32,964] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:26:32,976] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:26:33,002] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.074 seconds
+[2019-11-07 16:27:17,055] {scheduler_job.py:153} INFO - Started process (PID=21279) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:27:17,074] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:27:17,076] {logging_mixin.py:112} INFO - [2019-11-07 16:27:17,075] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:27:17,083] {logging_mixin.py:112} INFO - [2019-11-07 16:27:17,081] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:27:17,084] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:27:17,097] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.042 seconds
+[2019-11-07 16:28:01,210] {scheduler_job.py:153} INFO - Started process (PID=21376) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:01,218] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:28:01,219] {logging_mixin.py:112} INFO - [2019-11-07 16:28:01,219] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:01,228] {logging_mixin.py:112} INFO - [2019-11-07 16:28:01,224] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:28:01,229] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:01,240] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.030 seconds
+[2019-11-07 16:28:45,349] {scheduler_job.py:153} INFO - Started process (PID=21442) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:45,359] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:28:45,360] {logging_mixin.py:112} INFO - [2019-11-07 16:28:45,360] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:45,368] {logging_mixin.py:112} INFO - [2019-11-07 16:28:45,365] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:28:45,368] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:28:45,381] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.032 seconds
+[2019-11-07 16:29:29,484] {scheduler_job.py:153} INFO - Started process (PID=21511) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:29:29,497] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:29:29,498] {logging_mixin.py:112} INFO - [2019-11-07 16:29:29,498] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:29:29,507] {logging_mixin.py:112} INFO - [2019-11-07 16:29:29,504] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:29:29,508] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:29:29,520] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.037 seconds
+[2019-11-07 16:30:13,604] {scheduler_job.py:153} INFO - Started process (PID=21589) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:13,613] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:30:13,614] {logging_mixin.py:112} INFO - [2019-11-07 16:30:13,613] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:13,623] {logging_mixin.py:112} INFO - [2019-11-07 16:30:13,620] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:30:13,623] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:13,642] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.038 seconds
+[2019-11-07 16:30:57,746] {scheduler_job.py:153} INFO - Started process (PID=21669) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:57,755] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:30:57,758] {logging_mixin.py:112} INFO - [2019-11-07 16:30:57,756] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:57,775] {logging_mixin.py:112} INFO - [2019-11-07 16:30:57,764] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:30:57,775] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:30:57,788] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.042 seconds
+[2019-11-07 16:31:41,880] {scheduler_job.py:153} INFO - Started process (PID=21739) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:31:41,893] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:31:41,895] {logging_mixin.py:112} INFO - [2019-11-07 16:31:41,894] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:31:41,904] {logging_mixin.py:112} INFO - [2019-11-07 16:31:41,900] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:31:41,904] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:31:41,934] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.053 seconds
+[2019-11-07 16:32:25,997] {scheduler_job.py:153} INFO - Started process (PID=21865) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:32:26,005] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:32:26,006] {logging_mixin.py:112} INFO - [2019-11-07 16:32:26,006] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:32:26,015] {logging_mixin.py:112} INFO - [2019-11-07 16:32:26,011] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:32:26,015] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:32:26,026] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.029 seconds
+[2019-11-07 16:33:10,122] {scheduler_job.py:153} INFO - Started process (PID=22003) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:10,129] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:33:10,130] {logging_mixin.py:112} INFO - [2019-11-07 16:33:10,130] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:10,140] {logging_mixin.py:112} INFO - [2019-11-07 16:33:10,136] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:33:10,140] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:10,151] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.029 seconds
+[2019-11-07 16:33:54,250] {scheduler_job.py:153} INFO - Started process (PID=22084) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:54,257] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:33:54,259] {logging_mixin.py:112} INFO - [2019-11-07 16:33:54,258] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:54,265] {logging_mixin.py:112} INFO - [2019-11-07 16:33:54,263] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:33:54,266] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:33:54,278] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.028 seconds
+[2019-11-07 16:34:38,414] {scheduler_job.py:153} INFO - Started process (PID=22173) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:34:38,423] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:34:38,425] {logging_mixin.py:112} INFO - [2019-11-07 16:34:38,424] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:34:38,438] {logging_mixin.py:112} INFO - [2019-11-07 16:34:38,432] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:34:38,438] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:34:38,466] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.053 seconds
+[2019-11-07 16:35:22,509] {scheduler_job.py:153} INFO - Started process (PID=22252) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:35:22,516] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:35:22,517] {logging_mixin.py:112} INFO - [2019-11-07 16:35:22,517] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:35:22,522] {logging_mixin.py:112} INFO - [2019-11-07 16:35:22,521] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:35:22,522] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:35:22,539] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.030 seconds
+[2019-11-07 16:36:06,636] {scheduler_job.py:153} INFO - Started process (PID=22306) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:06,649] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:36:06,650] {logging_mixin.py:112} INFO - [2019-11-07 16:36:06,650] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:06,656] {logging_mixin.py:112} INFO - [2019-11-07 16:36:06,654] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:36:06,656] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:06,676] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.040 seconds
+[2019-11-07 16:36:50,756] {scheduler_job.py:153} INFO - Started process (PID=22357) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:50,766] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:36:50,767] {logging_mixin.py:112} INFO - [2019-11-07 16:36:50,766] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:50,772] {logging_mixin.py:112} INFO - [2019-11-07 16:36:50,770] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow_home.plugins.new_operator import TestOperator
+ModuleNotFoundError: No module named 'airflow_home'
+[2019-11-07 16:36:50,773] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:36:50,783] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.027 seconds
+[2019-11-07 16:37:34,880] {scheduler_job.py:153} INFO - Started process (PID=22430) to work on /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:37:34,887] {scheduler_job.py:1528} INFO - Processing file /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py for tasks to queue
+[2019-11-07 16:37:34,888] {logging_mixin.py:112} INFO - [2019-11-07 16:37:34,888] {dagbag.py:92} INFO - Filling up the DagBag from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:37:34,900] {logging_mixin.py:112} INFO - [2019-11-07 16:37:34,898] {dagbag.py:207} ERROR - Failed to import: /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+Traceback (most recent call last):
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 204, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/venv/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py", line 3, in <module>
+    from airflow.operators import TestOperator
+ImportError: cannot import name 'TestOperator'
+[2019-11-07 16:37:34,901] {scheduler_job.py:1542} WARNING - No viable dags retrieved from /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py
+[2019-11-07 16:37:34,913] {scheduler_job.py:161} INFO - Processing /Users/matuschladek/PycharmProjects/airflow-primer/airflow_home/dags/test_operator.py took 0.033 seconds
